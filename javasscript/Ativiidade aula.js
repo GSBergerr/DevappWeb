@@ -13,3 +13,8 @@ function multiplicaPorDois(numeros) {
     }
     return numeros;   
   }
+  var total = numeros.reduce(function(total,numero){
+  return total + numero;
+
+  }, 0);
+  console.log(total);
